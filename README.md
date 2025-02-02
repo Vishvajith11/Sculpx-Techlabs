@@ -46,7 +46,7 @@ The key feature of this project is that **prices and stock update dynamically** 
 
 1. **Download or Clone the Repository**  
    ```bash
-   https://github.com/Vishvajith11/Sculpx-Techlabs.git
+   https://github.com/Vishvajith11/Sculpx-Techlabs-Ecommerce-Website.git
 
 
 🔮 What’s Next?
