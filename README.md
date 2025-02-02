@@ -1,39 +1,53 @@
-# Sculpx-Techlabs
+# Computer Gadgets - Simple Product Showcase  
 
-# Computer Gadgets - Simple Product Showcase
-📌 About This Project
-Hey there! 👋 This is a Computer Gadgets web page that displays a list of 10 computer-related products. It’s a basic e-commerce-like setup where users can browse products, see their prices, and check the available stock.
+## About This Project  
 
-The cool part? 💡 The prices and stock update dynamically based on a Google Form submission. This makes it easy for the store owner (that’s you! 😎) to update product details without editing the code manually.
+This is a **Computer Gadgets** web page that displays a list of 20 computer-related products. It is designed as a basic e-commerce-like platform where users can browse products, check prices, and view stock availability.  
 
-🚀 What’s Inside?
-✅ Product Listings
-Each product has an image, name, price, and stock availability.
-The UI is clean and easy to navigate.
-🔍 Search & Sort
-Search bar to quickly find products by name.
-Sorting options to arrange items based on price.
-🛒 Shopping Cart (Basic)
-Users can add items to the cart.
-Items can be removed from the cart.
-A simple checkout button (just for show, no real payments yet!).
-🔄 Dynamic Data Update
-Prices & stock change dynamically based on data submitted via Google Forms.
-No need to edit the HTML manually! Just update the form, and the page refreshes with new details.
+The key feature of this project is that **prices and stock update dynamically** based on a Google Form submission. This allows the store owner to update product details without manually editing the code.  
 
-🏗️ Tech Used
-HTML → For the page structure
-CSS → For the styling & responsiveness
-JavaScript → To handle search, sort, cart, and dynamic updates
+---
 
-⚙️ How to Run This Project
-Download or Clone
-bash
-Copy
-Edit
-git clone [https://github.com/Vishvajith11/computer-gadgets.git](https://github.com/Vishvajith11/Sculpx-Techlabs.git)
-Open index.html in your browser (Chrome, Firefox, Edge, etc.).
-Make sure JavaScript is enabled—it won’t work without it!
+## Features  
+
+### Product Listings  
+- Each product has an image, name, price, and stock availability.  
+- The user interface is clean and easy to navigate.  
+
+### Search & Sort  
+- A search bar is available to quickly find products by name.  
+- Sorting options are included to arrange items based on price or stock.  
+
+### Shopping Cart  
+- Users can add items to the cart and view the total price.  
+- Items can be removed from the cart.  
+- A basic checkout button is included (this does not process payments yet).  
+
+### Dynamic Data Update  
+- Prices and stock update automatically based on data submitted via **Google Forms**.  
+- This eliminates the need for manual updates in the HTML file.  
+
+---
+
+## Technologies Used  
+
+- **HTML** - For the page structure  
+- **CSS** - For styling and responsiveness  
+- **JavaScript** - For handling search, sorting, cart functionality, and dynamic updates  
+
+---
+
+
+
+
+---
+
+## How to Run This Project  
+
+1. **Download or Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/computer-gadgets.git
+
 
 🔮 What’s Next?
 Here are some features I might add in the future:
@@ -42,7 +56,7 @@ Here are some features I might add in the future:
 ✅ A real backend database instead of a Google Form
 ✅ More categories of gadgets
 
-👨‍💻 Author
+## Author
 Vishvajith Saravanarajan – Developer
 📺 YouTube: Michael Machans
 
