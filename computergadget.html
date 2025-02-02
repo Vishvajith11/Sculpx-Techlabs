@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Gadgets - BuyNest</title>
+    <link rel="stylesheet" href="computergadget.css"> 
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="computergadget.js"></script>
+
+</head>
+<body>
+
+
+    <header class="header">
+        <a href="index.html" class="home-icon">
+            <i class="fa-solid fa-house"></i> 
+        </a>
+        <h1 class="site-title">BuyNest Computer Gadgets</h1>
+
+    </header>
+
+    
+    <section class="search-sort">
+        <input type="text" id="searchInput" placeholder="Search Products..." onkeyup="filterProducts()">
+        <select id="sortSelect" onchange="sortProducts()">
+            <option value="default">Sort By Price</option>
+            <option value="asc">Price: Low to High</option>
+            <option value="desc">Price: High to Low</option>
+        </select>
+    </section>
+
+
+    <section class="product-container" id="productContainer">
+
+        <div class="product-card" data-product="Logitech Mouse">
+            <img src="../images/mouse.jpg" alt="Mouse">
+            <h3>Logitech Mouse</h3>
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Logitech Mouse')">Add to Cart</a>
+        </div>
+
+        <div class="product-card" data-product="Infinix Keyboard">
+            <img src="../images/keyboard.jpg" alt="Keyboard">
+            <h3>Infinix Keyboard</h3>
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Infinix Keyboard')">Add to Cart</a>
+        </div>
+
+        <div class="product-card" data-product="Sony 4GB Pendrive">
+            <img src="../images/pendrive.jpg" alt="Pendrive">
+            <h3>Sony 4GB Pendrive</h3>
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Sony 4GB Pendrive')">Add to Cart</a>
+        </div>
+
+        <div class="product-card" data-product="Sandisk SSD">
+            <img src="../images/ssd.jpg" alt="SSD">
+            <h3>Sandisk SSD</h3>
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Sandisk SSD')">Add to Cart</a>
+        </div>
+
+        <div class="product-card" data-product="Integral RAM 16GB">
+            <img src="../images/ram.jpg" alt="RAM">
+            <h3>Integral RAM 16GB</h3>
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Integral RAM 16GB')">Add to Cart</a>
+        </div>
+
+        <div class="product-card" data-product="Lapcare Mouse Pad">
+            <img src="../images/mousepad.jpg" alt="Mouse Pad">
+            <h3>Lapcare Mouse Pad</h3>
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Lapcare Mouse Pad')">Add to Cart</a>
+        </div>
+
+        <div class="product-card" data-product="Safari Laptop Case">
+            <img src="../images/lap case.jpg" alt="Laptop Case">
+            <h3>Safari Laptop Case</h3>
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Safari Laptop Case')">Add to Cart</a>
+        </div>
+
+        <div class="product-card" data-product="Computer Chair">
+            <img src="../images/pc chair.jpg" alt="PC Chair">
+            <h3>Computer Chair</h3>
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Computer Chair')">Add to Cart</a>
+        </div>
+
+        <div class="product-card" data-product="Laptop Stand">
+            <img src="../images/lap stand.jpg" alt="Laptop Stand">
+            <h3>Laptop Stand</h3>
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Laptop Stand')">Add to Cart</a>
+        </div>
+
+        <div class="product-card" data-product="Bluetooth Speaker">
+            <img src="../images/bluettoth speaker.jpg" alt="Bluetooth Speaker">
+            <h3>Bluetooth Speaker</h3>  
+            <p class="price">₹<span class="price-value">0</span>/-</p>
+            <p class="quantity">Available: <span class="quantity-value">NIL</span></p>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <a href="#" class="buy-now" onclick="addToCart('Bluetooth Speaker')">Add to Cart</a>
+        </div>
+
+    </section>
+
+
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <h2>Your Cart</h2>
+            <ul id="cartList"></ul>
+            <button onclick="closeCart()">Close</button>
+            <button onclick="buynow()">Buy</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 BuyNest Online Shopping. All rights reserved.</p>
+    </footer>
+
+   
+
+</body>
+</html>
