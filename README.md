@@ -1,6 +1,6 @@
 # Sculpx-Techlabs
 
-#🖥️ Computer Gadgets - Simple Product Showcase
+# Computer Gadgets - Simple Product Showcase
 📌 About This Project
 Hey there! 👋 This is a Computer Gadgets web page that displays a list of 10 computer-related products. It’s a basic e-commerce-like setup where users can browse products, see their prices, and check the available stock.
 
