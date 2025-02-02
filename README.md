@@ -31,7 +31,7 @@ Download or Clone
 bash
 Copy
 Edit
-git clone https://github.com/Vishvajith11/computer-gadgets.git
+git clone [https://github.com/Vishvajith11/computer-gadgets.git](https://github.com/Vishvajith11/Sculpx-Techlabs.git)
 Open index.html in your browser (Chrome, Firefox, Edge, etc.).
 Make sure JavaScript is enabled—it won’t work without it!
 
